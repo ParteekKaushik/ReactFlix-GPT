@@ -2,6 +2,12 @@
 
 - Create React App 
 - Configured Tailwid
+- Header
+- Routing 
+- Login Form
+- Signup Form
+- Form Validation
+- useRef Hook
 
 # Features - Planning for the application : 
 
