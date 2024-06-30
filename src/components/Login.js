@@ -33,7 +33,7 @@ const handleValidation = () =>{
 
       <form onSubmit={(e) => e.preventDefault()} className="w-3/12 absolute p-12 bg-black mt-24 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-75">
         <h1 className="text-3xl font-bold pt-3 pb-2 ">{isSignInForm ? "Sign In" : "Sign Up"}</h1>
-        <p className=" text-red-600">Disclaimer: This is just a dummy project to showcase my skills & for learning purpose. Please don't enter your actual credentials here.</p>
+        {/* <p className=" text-red-600">Disclaimer: This is just a dummy project to showcase my skills & for learning purpose. Please don't enter your actual credentials here.</p> */}
         {!isSignInForm && <input
           className="w-full p-4 my-2 bg-black rounded-lg bg-opacity-75 border border-gray-400"
           type="text"
